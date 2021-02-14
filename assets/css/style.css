@@ -8,7 +8,8 @@
 .fa-paper-plane,
 .fa-code,
 .fa-file,
-.fa-user
+.fa-user,
+.fa-twitter
 {
   margin-top: 35px;
   margin-left: 35px;
@@ -18,12 +19,22 @@
   font-size: 40px;
 }
 
+.fa-js-square,
+.fa-node,
+.fa-npm,
+.fa-php,
+.fa-python,
+.fa-react,
+.fa-bootstrap,
+.fa-css3,
+.fa-html5,
 .fa-github-square,
 .fa-phone-square-alt,
 .fa-envelope-square {
   font-size: 40px;
   color:#424242;
 }
+
 .fa-external-link-alt{
   margin-top: 5px;
   font-size: 32px;
@@ -73,4 +84,9 @@ p {
 .collection .collection-item {
   border-bottom
 : 0px !important;
+}
+
+.bottom {
+  position:relative;
+  top: 70px;
 }
