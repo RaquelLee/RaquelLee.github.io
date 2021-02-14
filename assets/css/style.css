@@ -1,0 +1,76 @@
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-github,
+.fa-linkedin-in,
+.fa-paper-plane,
+.fa-code,
+.fa-file,
+.fa-user
+{
+  margin-top: 35px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 0px;
+  color: #f5f5f5;
+  font-size: 40px;
+}
+
+.fa-github-square,
+.fa-phone-square-alt,
+.fa-envelope-square {
+  font-size: 40px;
+  color:#424242;
+}
+.fa-external-link-alt{
+  margin-top: 5px;
+  font-size: 32px;
+  color:#424242;
+}
+
+
+h2 {
+margin-top: 5px !important;
+} 
+
+.parallax-container {
+  height: 490px !important;
+}
+
+.card .card-content{
+  padding-bottom: 0px !important;
+  padding-top: 10px !important;
+
+}
+.card .card-action {
+  padding:0px !important;
+  padding-top: 10px !important;
+}
+.center, .center-align {
+  margin-bottom: 10px !important;
+}
+
+p {
+  font-size: 20px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.navtxt {
+  margin-top: 10px;
+  color: #f5f5f5;
+  font-size: 12px;
+}
+
+.card .card-image img{
+  height: 200px;
+}
+
+.collection .collection-item {
+  border-bottom
+: 0px !important;
+}
