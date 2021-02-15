@@ -68,7 +68,7 @@ p {
 }
 
 .mr {
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .navtxt {
@@ -90,3 +90,10 @@ p {
   position:relative;
   top: 70px;
 }
+
+@media screen and (min-width: 1440px) {
+  .colw {
+    width: 40px;
+  }
+}
+
