@@ -1,5 +1,6 @@
 import React from "react";
-import Resume from "../components"
+import Resume from "../assets/resume.pdf";
+import galaxy from "../assets/parallax2.jpeg"
 
 function HeaderNav(props) {
   return (<div>
@@ -16,7 +17,7 @@ function HeaderNav(props) {
           </a>
         </div>
         <div className="col m1 center">
-          <a href="" target="_blank">
+          <a href={Resume} rel="noreferrer" target="_blank">
             <i className="far fa-file"></i>
             <p className="navtxt">Resume</p>
           </a>
@@ -53,7 +54,7 @@ function HeaderNav(props) {
         </div>
       </div>
       <div className="parallax">
-        <img alt="" src="https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/parallax2.jpeg?raw=true" className="responsive-img"></img>
+        <img alt="" src={galaxy} className="responsive-img"></img>
       </div>
     </div>
   </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { Parallax } from 'react-materialize';
 import ProjectCard from "../Project";
 import projects from "../projects.json";
+import galaxy from "../../assets/parallax2.jpeg"
 
 const PortfolioPage = () => (
     <main>
@@ -20,7 +21,7 @@ const PortfolioPage = () => (
         </div>
         <Parallax
             image={<img alt=""
-                src="https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/parallax2.jpeg?raw=true" />}
+                src={galaxy} />}
             options={{
                 responsiveThreshold: 0
             }}></Parallax>

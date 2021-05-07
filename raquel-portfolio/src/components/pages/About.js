@@ -1,9 +1,9 @@
 import React from "react";
 import { Parallax } from 'react-materialize';
-
+import galaxy from "../../assets/parallax2.jpeg"
 const About = () => (
     <main>
-        <div className="section grey lighten-5">
+        <div className="section">
             <div className="row container">
                 <h2 className="deep-purple-text darken-4">
                     About Me</h2>
@@ -46,7 +46,7 @@ const About = () => (
         </div>
         <Parallax
             image={<img alt=""
-                src="https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/parallax2.jpeg?raw=true" />}
+                src={galaxy} />}
             options={{
                 responsiveThreshold: 0
             }}></Parallax>
