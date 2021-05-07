@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../components"
 
 function HeaderNav(props) {
   return (<div>
@@ -15,7 +16,7 @@ function HeaderNav(props) {
           </a>
         </div>
         <div className="col m1 center">
-          <a href="google.com" target="_blank">
+          <a href="" target="_blank">
             <i className="far fa-file"></i>
             <p className="navtxt">Resume</p>
           </a>
