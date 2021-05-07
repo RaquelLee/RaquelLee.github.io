@@ -1,0 +1,24 @@
+[
+    {
+        "key": 1,
+        "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/cryptochat.png?raw=true",
+        "title": "Crypto Chat",
+        "github": "https://github.com/stefanieklogan/Week15-Project2-Group4",
+        "deployed": "https://radiant-ocean-90430.herokuapp.com/"
+    },
+    {
+        "key": 2,
+        "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/news.png?raw=true",
+        "title": "We The People",
+        "github": "https://github.com/RaquelLee/we_the_people",
+        "deployed": "https://raquellee.github.io/we_the_people/"
+    },
+    {
+        "key": 3,
+        "image": "https://github.com/RaquelLee/tech_blog/blob/main/public/assets/images/TechBlog.gif?raw=true",
+        "title": "Tech Blog",
+        "github": "https://github.com/RaquelLee/tech_blog",
+        "deployed": "https://quiet-taiga-91709.herokuapp.com/"
+    }
+
+]
