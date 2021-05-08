@@ -1,6 +1,8 @@
 import React from "react";
 import { Parallax } from 'react-materialize';
+import me from "../../assets/portrait.png"
 import galaxy from "../../assets/parallax2.jpeg"
+
 const About = () => (
     <main>
         <div className="section">
@@ -8,7 +10,7 @@ const About = () => (
                 <h2 className="deep-purple-text darken-4">
                     About Me</h2>
                 <div className="col s3">
-                    <img alt="" src="assets/images/portrait.png" className="responsive-img bw circle left z-depth-5">
+                    <img alt="" src={me} className="responsive-img circle left z-depth-5">
                     </img>
                 </div>
                 <div className="col s9">
