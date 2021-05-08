@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1bae0514.chunk.css",
+    "main.js": "/static/js/main.de904680.chunk.js",
+    "main.js.map": "/static/js/main.de904680.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.087869c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.087869c3.js.map",
+    "static/js/2.bbd69ccc.chunk.js": "/static/js/2.bbd69ccc.chunk.js",
+    "static/js/2.bbd69ccc.chunk.js.map": "/static/js/2.bbd69ccc.chunk.js.map",
+    "static/js/3.cb009278.chunk.js": "/static/js/3.cb009278.chunk.js",
+    "static/js/3.cb009278.chunk.js.map": "/static/js/3.cb009278.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1bae0514.chunk.css.map": "/static/css/main.1bae0514.chunk.css.map",
+    "static/js/2.bbd69ccc.chunk.js.LICENSE.txt": "/static/js/2.bbd69ccc.chunk.js.LICENSE.txt",
+    "static/media/parallax2.13a96ae4.jpeg": "/static/media/parallax2.13a96ae4.jpeg",
+    "static/media/portrait.f81f6b3e.png": "/static/media/portrait.f81f6b3e.png",
+    "static/media/resume.91779871.pdf": "/static/media/resume.91779871.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.087869c3.js",
+    "static/js/2.bbd69ccc.chunk.js",
+    "static/css/main.1bae0514.chunk.css",
+    "static/js/main.de904680.chunk.js"
+  ]
+}
