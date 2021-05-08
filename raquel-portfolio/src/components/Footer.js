@@ -4,24 +4,20 @@ import { Footer } from 'react-materialize'
 function Foot() {
     return (
         <Footer
-            className="example"
-            copyrights="&copy 2015 Copyright Text"
-            links={<ul>
-                <li><a className="grey-text text-lighten-3" href="#!">Resume</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">GithHub</a></li>
-                <li><a className="grey-text text-lighten-3" href="#!">Twitter</a></li>
-            </ul>}
-            moreLinks={
-                <a className="grey-text text-lighten-4 right" href="#!">About Me</a>
-            }
-        >
-            <h5 className="white-text">
-                Footer Content
-        </h5>
-            <p className="grey-text text-lighten-4">
-                You can use rows and columns here to organize your footer content.
-        </p>
+            className="grey darken-4"
+            copyrights={<p className="center">© 2021 Raquel Scofield</p>}
+            // links={<ul>
+            //     <li><a className="grey-text text-lighten-2" href="#!">Resume</a></li>
+            //     <li><a className="grey-text text-lighten-2" href="#!"> LinkedIn</a></li>
+            //     <li><a className="grey-text text-lighten-2" href="#!"> GithHub</a></li>
+            //     </ul>
+           // }
+            >
+            {/* <ul>
+                <a className="grey-text text-lighten-2" href="#!">Resume  |  </a>
+                <a className="grey-text text-lighten-2" href="#!"> LinkedIn |  </a>
+                <a className="grey-text text-lighten-2" href="#!"> Github</a>
+                </ul>       */}
         </Footer>);
 }
 

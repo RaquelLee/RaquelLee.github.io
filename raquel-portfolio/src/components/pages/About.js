@@ -28,8 +28,13 @@ const About = () => (
                                 <i className="fab fa-node"></i>
                             </div>
                             <div className="col m1">
+                            <i class="fab fa-npm"></i>
+                            </div>
+                            <div className="col m1">
                                 <i className="fab fa-react"></i>
                             </div>
+                            <div className="col m1">
+                            <i class="fab fa-git-alt"></i>                            </div>
                             <div className="col m1">
                                 <i className="fab fa-bootstrap"></i>
                             </div>

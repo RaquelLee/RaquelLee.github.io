@@ -22,7 +22,9 @@
     color: #f5f5f5;
     font-size: 40px;
   }
-  
+  .page-footer {
+padding-top: 0px !important;
+  }
   .fa-js-square,
   .fa-node,
   .fa-npm,
@@ -34,11 +36,12 @@
   .fa-html5,
   .fa-github-square,
   .fa-phone-square-alt,
-  .fa-envelope-square {
+  .fa-envelope-square,
+  .fa-git-alt {
     font-size: 40px;
     color:#424242;
   }
-  
+
   .fa-external-link-alt{
     margin-top: 5px;
     font-size: 32px;
@@ -66,10 +69,7 @@
   .center, .center-align {
     margin-bottom: 10px !important;
   }
-  
-  p {
-    font-size: 18px;
-  }
+
   
   .mr {
     margin-right: 25px;

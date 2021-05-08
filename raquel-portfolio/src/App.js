@@ -4,10 +4,11 @@ import PortfolioContainer from "./components/PortfolioContainer";
 import PortfolioPage from "./components/pages/Portfolio"
 
 const App = () =>
+<div>
   <PortfolioContainer>
     <PortfolioPage />
     <Header />
-    <Foot />
   </PortfolioContainer>
-
+    <Foot />
+    </div>
 export default App;
