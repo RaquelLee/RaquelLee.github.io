@@ -8,7 +8,7 @@ const About = () => (
         <div className="section">
             <div className="row container">
                 <h2 className="deep-purple-text darken-4">
-                    About Me</h2>
+                    About Raquel</h2>
                 <div className="col s3">
                     <img alt="" src={me} className="responsive-img circle left z-depth-5">
                     </img>
