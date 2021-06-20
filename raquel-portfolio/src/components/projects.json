@@ -1,7 +1,7 @@
 [
     {
         "key": 4,
-        "image": "",
+        "image": "../assets/cbrewss.png",
         "title": "Celebration Brewing",
         "github": "https://github.com/stefanieklogan/brewery",
         "deployed": "https://github.com/stefanieklogan/brewery/deployments/activity_log?environment=pure-journey-55067"
