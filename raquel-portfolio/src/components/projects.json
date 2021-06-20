@@ -1,5 +1,12 @@
 [
     {
+        "key": 4,
+        "image": "",
+        "title": "Celebration Brewing",
+        "github": "https://github.com/stefanieklogan/brewery",
+        "deployed": "https://github.com/stefanieklogan/brewery/deployments/activity_log?environment=pure-journey-55067"
+    },
+    {
         "key": 1,
         "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/raquel-portfolio/src/assets/cc.png?raw=true",
         "title": "Crypto Chat",
@@ -19,27 +26,7 @@
         "title": "Tech Blog",
         "github": "https://github.com/RaquelLee/tech_blog",
         "deployed": "https://quiet-taiga-91709.herokuapp.com/"
-    },
-    {
-        "key": 4,
-        "image": "https://images.squarespace-cdn.com/content/v1/55ca787ae4b07d9498906d9e/1551490529737-C7C2LZQ8MSFLT8L632H4/ke17ZwdGBToddI8pDm48kPHgPSpJs3pqpkUZU93_mvpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PInndiFr6ALsCf3uCDBRk4eJzsF3rQ925VZ6DZqxvBZkQKMshLAGzx4R3EDFOm1kBS/coming-soon-neon-sign-coming-soon-badge-in-vector-21133321.jpg",
-        "title": "Project 3",
-        "github": "",
-        "deployed": ""
-    },
-    {
-        "key": 5,
-        "image": "https://github.com/RaquelLee/workout_tracker/raw/main/public/assets/images/fitness_tracker.gif",
-        "title": "Workout Tracker",
-        "github": "https://github.com/RaquelLee/tech_blog",
-        "deployed": "https://quiet-taiga-91709.herokuapp.com/"
-    },
-    {
-        "key": 6,
-        "image": "https://github.com/RaquelLee/take_notes/raw/main/public/assets/images/demo.gif",
-        "title": "Take Notes",
-        "github": "https://github.com/RaquelLee/take_notes",
-        "deployed": "https://still-cove-75725.herokuapp.com/"
     }
+
 
 ]

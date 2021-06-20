@@ -1,7 +1,6 @@
 import React from "react";
-import Resume from "../assets/resume.pdf";
-import galaxy from "../assets/parallax2.jpeg"
-
+import Resume from "../assets/raquel_scofield_resume.pdf";
+import galaxy from "../assets/images/parallax2.jpeg"
 function HeaderNav(props) {
   return (<div>
     <div className="parallax-container">

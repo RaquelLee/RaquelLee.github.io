@@ -2,9 +2,10 @@ import React from "react";
 
 function ProjectCard(props) {
     return (
-        <div className="col m4">
+        <div className="col m6">
             <div className="card z-depth-3 small">
                 <div className="card-image responsive-img">
+                    
                     <img alt={props.title} src={props.image}></img>
                 </div>
                 <div className="card-content">

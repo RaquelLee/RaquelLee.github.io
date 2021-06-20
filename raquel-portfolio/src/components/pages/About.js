@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from 'react-materialize';
-import me from "../../assets/portrait.png"
-import galaxy from "../../assets/parallax2.jpeg"
+import me from "../../assets/images/portrait.png"
+import galaxy from "../../assets/images/parallax2.jpeg"
 
 const About = () => (
     <main>
@@ -53,7 +53,7 @@ const About = () => (
         </div>
         <Parallax
             image={<img alt=""
-                src={galaxy} />}
+              src={galaxy}   />}
             options={{
                 responsiveThreshold: 0
             }}></Parallax>

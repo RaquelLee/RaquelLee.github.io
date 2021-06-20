@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from 'react-materialize';
-import galaxy from "../../assets/parallax2.jpeg"
+// import galaxy from "../../assets/parallax2.jpeg"
 
 const Contact = () => (
     <main>
@@ -27,7 +27,7 @@ const Contact = () => (
         </div>
         <Parallax
             image={<img alt=""
-                src={galaxy} />}
+             />}
             options={{
                 responsiveThreshold: 0
             }}></Parallax>

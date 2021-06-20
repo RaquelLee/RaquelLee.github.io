@@ -7,7 +7,7 @@ My official portfolio site! I used materialize and custom CSS to create a mobile
 
 ### About Me
 ![About Me](https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/about.png?raw=true)
-
+ 
 ### Projects
 ![Projects](https://github.com/RaquelLee/RaquelLee.github.io/blob/main/assets/images/portfolio.png?raw=true)
 
