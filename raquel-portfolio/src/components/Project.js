@@ -11,6 +11,8 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import LinkIcon from '@material-ui/icons/Link';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Divider from '@material-ui/core/Divider';
+
 const useStyles = makeStyles((theme) => ({
     media: {
         height: 0,
@@ -37,9 +39,7 @@ export default function ProjectCard(props) {
     };
 
     return (
-        <div className="section">
-
-        <div className="col m6">
+        <div className="col m6 mb ">
             <Card className={classes.root}>
                 <CardMedia
                     className={classes.media}
@@ -47,17 +47,11 @@ export default function ProjectCard(props) {
                     title={props.title}
                 />
                 <CardActions disableSpacing>
-                    <IconButton aria-label="add to favorites">
-                        
-                            <LinkIcon fontSize="large">
-                            <a href={props.github}></a>
-                            </LinkIcon>
-                    
-                    </IconButton>
                     <IconButton aria-label="share">
-                    <GitHubIcon fontSize="large">
-                            <a href={props.github}></a>
-                            </GitHubIcon>
+                        <a href={props.github} target="_blank"><GitHubIcon fontSize="large" /></a>
+                    </IconButton>
+                    <IconButton aria-label="add to favorites">
+                        <a href={props.deployed} target="_blank"><LinkIcon fontSize="large" /></a>
                     </IconButton>
                     <IconButton
                         className={clsx(classes.expand, {
@@ -66,21 +60,23 @@ export default function ProjectCard(props) {
                         onClick={handleExpandClick}
                         aria-expanded={expanded}
                         aria-label="show more"
-                        
                     >
-                        <ExpandMoreIcon fontSize="large"/>
+                        <ExpandMoreIcon />
                     </IconButton>
                 </CardActions>
                 <Collapse in={expanded} timeout="auto" unmountOnExit>
                     <CardContent>
-                        <Typography paragraph>Method:</Typography>
+                        <Typography  >
+                            <b className="center">{props.title}</b>
+                            <p className="center">{props.description}</p>
+                        </Typography>
+                        <Divider variant="middle" /><br />
                         <Typography paragraph>
-                            {props.description}
+                            <b className="center">Technologies Used</b> <p className="center">{props.tech}</p>
                         </Typography>
                     </CardContent>
                 </Collapse>
             </Card>
-        </div>
         </div>
     );
 }

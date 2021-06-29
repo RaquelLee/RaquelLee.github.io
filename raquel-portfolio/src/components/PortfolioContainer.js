@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import About from "./pages/About";
 import PortfolioPage from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import HeaderNav from "./Header"
+import HeaderNav from "./Header";
 
 class Portfolio extends Component {
     state = {

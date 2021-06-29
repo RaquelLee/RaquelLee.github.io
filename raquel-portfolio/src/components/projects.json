@@ -4,29 +4,35 @@
         "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/raquel-portfolio/src/assets/cbrewss.png?raw=true",
         "title": "Celebration Brewing",
         "github": "https://github.com/stefanieklogan/brewery",
-        "deployed": "https://github.com/stefanieklogan/brewery/deployments/activity_log?environment=pure-journey-55067"
+        "deployed": "https://secure-stream-74196.herokuapp.com/",
+        "tech": "React, Untappd API, Material UI, bcrypt, Express.js, MySQL, Sequelize, Node.js, CSS3, HTML5",
+        "description": "Celebration Brewing was created for a small local brewery and features the Untappd Social API and an Admin Dashboard"
     },
     {
         "key": 1,
         "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/raquel-portfolio/src/assets/cc.png?raw=true",
         "title": "Crypto Chat",
         "github": "https://github.com/stefanieklogan/Week15-Project2-Group4",
-        "deployed": "https://radiant-ocean-90430.herokuapp.com/"
+        "deployed": "https://radiant-ocean-90430.herokuapp.com/",
+        "tech": "CoinPaprika API, Express, MySQL, Sequelize, bcrypt,Handlebars, Materialize CSS, Node.js, CSS3, HTML5",
+        "description": "Created to be a simpler space to discuss Cryptocurrency, Crypto Chat brings new and experienced investors together. "
     },
     {
         "key": 2,
         "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/raquel-portfolio/src/assets/wtp.png?raw=true",
         "title": "We The People",
         "github": "https://github.com/RaquelLee/we_the_people",
-        "deployed": "https://raquellee.github.io/we_the_people/"
+        "deployed": "https://raquellee.github.io/we_the_people/",
+        "tech": "Google Civic API, Bing News Search API, jQuery, Node.js, HTML5, CSS3 ",
+        "description": "We the People is an application that relays unbiased, non-partisan news about our user's government officials based on their location."
     },
     {
         "key": 3,
         "image": "https://github.com/RaquelLee/tech_blog/raw/main/public/assets/images/TechBlog.gif",
         "title": "Tech Blog",
         "github": "https://github.com/RaquelLee/tech_blog",
-        "deployed": "https://quiet-taiga-91709.herokuapp.com/"
+        "deployed": "https://quiet-taiga-91709.herokuapp.com/",
+        "tech": "Express, MySQL, Sequelize, bcrypt, Handlebars, Materialize CSS, Node.js, CSS3, HTML5",
+        "description": "Tech blog was created as a space for users of all skill levels to come and simply read about or discuss tech!"
     }
-
-
 ]

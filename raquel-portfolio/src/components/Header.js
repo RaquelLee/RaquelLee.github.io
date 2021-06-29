@@ -1,6 +1,8 @@
 import React from "react";
 import Resume from "../assets/raquel_scofield_resume.pdf";
-import galaxy from "../assets/images/parallax2.jpeg"
+import galaxy from "../assets/images/parallax2.jpeg";
+// import { HashLink as Link } from 'react-router-hash-link'
+
 function HeaderNav(props) {
   return (<div>
     <div className="parallax-container">
