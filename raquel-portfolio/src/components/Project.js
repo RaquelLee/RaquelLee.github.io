@@ -39,7 +39,7 @@ export default function ProjectCard(props) {
     };
 
     return (
-        <div className="col m6 mb ">
+        <div className="col m6 s12 mb ">
             <Card className={classes.root}>
                 <CardMedia
                     className={classes.media}

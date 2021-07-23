@@ -6,7 +6,7 @@ import galaxy from "../../assets/images/parallax2.jpeg";
 
 const PortfolioPage = () => (
     <main>
-        <div className="section grey lighten-5 mt">
+        <div className=" grey lighten-5 mt">
             <div className="row container grey lighten-5">
                 {projects.map(project => (
                     <ProjectCard
