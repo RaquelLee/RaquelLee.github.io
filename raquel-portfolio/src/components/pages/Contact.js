@@ -9,20 +9,24 @@ const Contact = () => (
             <div className="row container">
                 <h2 className="grey-text text-darken-3 lighten-3 ">Contact Me</h2>
                 <div className="row">
-                    <div className="col xl4">
-                        <ul className="collection z-depth-1">
-                            <li className="collection-item valign-wrapper">
-                                <i className="fas fa-phone-square-alt mr"></i>
-                                <p>‪(407) 386-3584‬</p>
-                            </li>
-                            <li className="collection-item valign-wrapper">
-                                <i className="fas fa-envelope-square mr"></i>
-                                <p>Raquel@cdecompanion.com</p>
-                            </li>
-                        </ul>
+                    <div className="col s4">
+                        <div className="card">
+                            <div className="card-content">
+                                <p className="valign-wrapper">
+                                    <i className="fas fa-phone-square-alt "></i> &nbsp; &nbsp;
+                                    <p>‪(407) 386-3584‬</p>
+                                </p>
+                                <br></br>
+                                <p className="collection-item valign-wrapper">
+                                    <i className="fas fa-envelope-square"></i> &nbsp; &nbsp;
+                                    <p>Raquel@cdecompanion.com</p>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="col s8">
+                    <div className="col s8">
+                        <ContactForm />
+                    </div>
                 </div>
             </div>
         </div>

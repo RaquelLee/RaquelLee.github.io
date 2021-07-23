@@ -1,43 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 
 const ContactForm = () => {
-	const [status, setStatus] = useState("Submit");
-	const handleSubmit = async (e) => {
-		e.preventDefault();
-		setStatus("Sending...");
-		const { name, email, message } = e.target.elements;
-		let details = {
-			name: name.value,
-			email: email.value,
-			message: message.value,
-		};
-		let response = await fetch("http://localhost:5000/contact", {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json;charset=utf-8",
-			},
-			body: JSON.stringify(details),
-		});
-		setStatus("Submit");
-		let result = await response.json();
-		alert(result.status);
-	};
 	return (
-		<form onSubmit={handleSubmit}>
-			<div>
-				<label htmlFor="name">Name:</label>
-				<input type="text" id="name" required />
+		<div className="card ">
+			<div className="card-content">
+		<form className=""
+			action="https://formspree.io/f/xeqvlwwa"
+			method="POST">
+			<div className="row">
+				<div classname="input-field">
+					<label for="email">Email</label>
+					<input type="email" name="_replyto" classname="validate" />
+				</div>
 			</div>
-			<div>
-				<label htmlFor="email">Email:</label>
-				<input type="email" id="email" required />
+			<div className="row">
+				<div classname="input-field col s12">
+					<label>
+						Message
+					</label>
+					<textarea className="materialize-textarea" name="message"></textarea>
+				</div>
 			</div>
-			<div>
-				<label htmlFor="message">Message:</label>
-				<textarea id="message" required />
+			<div className="row">
+				<button className="grey darken-3 right btn waves-effect waves-light" type="submit" name="action">
+				<i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+				</button>
 			</div>
-			<button type="submit">{status}</button>
 		</form>
+		</div>
+	</div>
 	);
 };
 
