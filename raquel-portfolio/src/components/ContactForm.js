@@ -8,13 +8,13 @@ const ContactForm = () => {
 					action="https://formspree.io/f/xeqvlwwa"
 					method="POST">
 					<div className="row">
-						<div classname="input-field">
+						<div className="input-field">
 							<label>Email</label>
-							<input type="email" name="_replyto" classname="validate" />
+							<input type="email" name="_replyto" className="validate" />
 						</div>
 					</div>
 					<div className="row">
-						<div classname="input-field col s12">
+						<div className="input-field col s12">
 							<label>
 								Message
 							</label>

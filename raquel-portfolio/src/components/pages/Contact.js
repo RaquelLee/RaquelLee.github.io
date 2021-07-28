@@ -9,22 +9,22 @@ const Contact = () => (
             <div className="row container">
                 <h2 className="grey-text text-darken-3 lighten-3 ">Contact Me</h2>
                 <div className="row">
-                    <div className="col s4">
+                    <div className="col s12 m5">
                         <div className="card">
                             <div className="card-content">
                                 <p className="valign-wrapper">
-                                    <i className="fas fa-phone-square-alt "></i> &nbsp; &nbsp;
-                                    <p>‪(407) 386-3584‬</p>
+                                    <i className="fas fa-phone-square-alt "></i> &nbsp;
+                                    (407) 386-3584‬
                                 </p>
                                 <br></br>
                                 <p className="collection-item valign-wrapper">
-                                    <i className="fas fa-envelope-square"></i> &nbsp; &nbsp;
-                                    <p>Raquel@cdecompanion.com</p>
+                                    <i className="fas fa-envelope-square"></i>&nbsp;&nbsp;
+                                    <span>Raquel@cdecompanion.com</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div className="col s8">
+                    <div className="col s12 m7">
                         <ContactForm />
                     </div>
                 </div>
