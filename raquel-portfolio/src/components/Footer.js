@@ -5,7 +5,7 @@ function Foot() {
     return (
         <Footer
             className=" grey darken-4"
-            copyrights={<p className="center ">© 2021 Raquel Scofield</p>}
+            copyrights="© 2021 Raquel Scofield"
         // links={<ul>
         //     <li><a className="grey-text text-lighten-2" href="#!">Resume</a></li>
         //     <li><a className="grey-text text-lighten-2" href="#!"> LinkedIn</a></li>
