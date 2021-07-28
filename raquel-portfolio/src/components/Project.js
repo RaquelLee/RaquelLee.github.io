@@ -68,11 +68,12 @@ export default function ProjectCard(props) {
                     <CardContent>
                         <Typography  >
                             <b className="center">{props.title}</b>
-                            <p className="center">{props.description}</p>
+                            <span className="center">{props.description}</span>
                         </Typography>
                         <Divider variant="middle" /><br />
                         <Typography paragraph>
-                            <b className="center">Technologies Used</b> <p className="center">{props.tech}</p>
+                            <b className="center">Technologies Used</b> 
+                            <span className="center">{props.tech}</span>
                         </Typography>
                     </CardContent>
                 </Collapse>
