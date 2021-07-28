@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from 'react-materialize';
-import me from "../../assets/images/portrait.png";
+import me from "../../assets/images/portrait.jpeg";
 import galaxy from "../../assets/images/parallax2.jpeg";
 
 const About = () => (

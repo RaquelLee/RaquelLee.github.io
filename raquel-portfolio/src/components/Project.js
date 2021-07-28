@@ -48,10 +48,10 @@ export default function ProjectCard(props) {
                 />
                 <CardActions disableSpacing>
                     <IconButton aria-label="share">
-                        <a href={props.github} target="_blank"><GitHubIcon fontSize="large" /></a>
+                        <a href={props.github} target="_blank" rel="noreferrer"><GitHubIcon fontSize="large" /></a>
                     </IconButton>
                     <IconButton aria-label="add to favorites">
-                        <a href={props.deployed} target="_blank"><LinkIcon fontSize="large" /></a>
+                        <a href={props.deployed} target="_blank" rel="noreferrer"><LinkIcon fontSize="large" /></a>
                     </IconButton>
                     <IconButton
                         className={clsx(classes.expand, {
