@@ -4,7 +4,7 @@ import { Footer } from 'react-materialize';
 function Foot() {
     return (
         <Footer
-            className="center grey darken-4"
+            className="grey darken-4 "
             copyrights="© 2021 Raquel Scofield"
         // links={<ul>
         //     <li><a className="grey-text text-lighten-2" href="#!">Resume</a></li>
