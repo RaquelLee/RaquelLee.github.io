@@ -13,7 +13,7 @@
         "image": "https://github.com/RaquelLee/RaquelLee.github.io/blob/main/raquel-portfolio/src/assets/cc.png?raw=true",
         "title": "Crypto Chat",
         "github": "https://github.com/stefanieklogan/Week15-Project2-Group4",
-        "deployed": "https://radiant-ocean-90430.herokuapp.com/",
+        "deployed": "https://radiant-depths-82308.herokuapp.com/",
         "tech": "CoinPaprika API, Express, MySQL, Sequelize, bcrypt,Handlebars, Materialize CSS, Node.js, CSS3, HTML5",
         "description": "Created to be a simpler space to discuss Cryptocurrency, Crypto Chat brings new and experienced investors together. "
     },
